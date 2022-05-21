@@ -21,12 +21,10 @@ export default function CreateProduct() {
     }, []);
     const fetchMovies = async () => {
         await axios
-            // .get(`http://localhost:8000/api/movies`)
-            .get(`http://localhost:3000/movies`)
+            .get(`http://localhost:3000/movies`) /* replace with backend API*/
             .then(({ data }) => {
                 setMovies(data);
             });
-        // console.log(products);
     };
 
     const selectMovie = (id) => {
@@ -56,18 +54,21 @@ export default function CreateProduct() {
             email.length > 1
         ) {
             await axios
-                // .post(`http://localhost:8000/api/products`)
-                .post(`http://localhost:3000/booking`, {
-                    name: name,
-                    email: email,
-                    title: title,
-                    date: date,
-                    time: time,
-                })
+
+                .post(
+                    `http://localhost:3000/booking` /* replace with backend API*/,
+                    {
+                        name: name,
+                        email: email,
+                        title: title,
+                        date: date,
+                        time: time,
+                    }
+                )
                 .then(({ data }) => {
                     Swal.fire({
                         icon: 'success',
-                        text: 'Booking confirmed, check your email',
+                        text: 'Booking confirmed, you can view your booking',
                     });
                     navigate('/');
                 })

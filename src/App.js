@@ -2,11 +2,10 @@ import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import EditProduct from './components/edit.component';
 import MovieList from './components/movielist.component';
 import Booking from './components/booking.component';
 import BookingList from './components/bookinglist.component';
-import CreateProduct from './components/create.component';
+import EditBooking from './components/edit.component';
 
 function App() {
     return (
@@ -26,8 +25,7 @@ function App() {
                         />
                     </Link>
                     <Link
-                        to={'/booking'}
-                        // className="text-red-500 text-center bg-purple-400 w-"
+                        to={'/bookinglist'}
                         className="border-[0.1rem] border-gray-400 text-center text-sm w-36 py-2 hover:bg-gray-800 hover:border-white hover:text-white duration-300 rounded-md no-underline text-white"
                     >
                         View Your Booking
@@ -35,17 +33,10 @@ function App() {
                 </div>
                 <div className="md:p-16 overflow-hiddenmax-w-[1920px]">
                     <Routes>
-                        <Route
-                            path="/product/create"
-                            element={<CreateProduct />}
-                        />
-                        <Route
-                            path="/product/edit/:id"
-                            element={<EditProduct />}
-                        />
-                        <Route path="/product" element={<BookingList />} />
-                        <Route exact path="/" element={<MovieList />} />
-                        <Route exact path="/booking" element={<Booking />} />
+                        <Route path="/" element={<MovieList />} />
+                        <Route path="/booking" element={<Booking />} />
+                        <Route path="/bookinglist" element={<BookingList />} />
+                        <Route path="/edit/:id" element={<EditBooking />} />
                     </Routes>
                 </div>
             </div>
