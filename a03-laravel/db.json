@@ -1,0 +1,614 @@
+{
+  "movies": [
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-07-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-07-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-07-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-07-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "After",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg?ts=1636996180",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "The Hill",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://i.pinimg.com/originals/bc/d5/c9/bcd5c9519581acc60bd60a429ab0c88f.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "Doctor strange",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "image": "https://townsquare.media/site/838/files/2016/10/dr-strange.jpg",
+      "session": [
+        {
+          "date": "01-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "02-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "03-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        },
+        {
+          "date": "04-06-2020",
+          "time": [
+            "9.00am",
+            "11.00am",
+            "1.00pm",
+            "3.00pm",
+            "5.00pm",
+            "7.00pm",
+            "9.00pm"
+          ]
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "booking": [
+    {
+      "name": "Tan Wei Teck ",
+      "email": "try@try.com",
+      "title": "Doctor strange",
+      "date": "02-07-2020",
+      "time": "1.00pm",
+      "id": 14
+    },
+    {
+      "name": "Tan Wei Teck ",
+      "email": "try@try.com",
+      "title": "Doctor strange",
+      "date": "02-07-2020",
+      "time": "1.00pm",
+      "id": 15
+    },
+    {
+      "name": "Tan Wei Teck ",
+      "email": "try@try.com",
+      "title": "Doctor strange",
+      "date": "02-07-2020",
+      "time": "1.00pm",
+      "id": 16
+    },
+    {
+      "name": "sdgfjb",
+      "email": "ytafsdvjh@gasdj",
+      "title": "Doctor strange",
+      "date": "03-07-2020",
+      "time": "9.00am",
+      "id": 17
+    },
+    {
+      "name": "jhfjfhjff",
+      "email": "gjfjgfj@jkjgbjl",
+      "title": "After",
+      "date": "01-06-2020",
+      "time": "1.00pm",
+      "id": 18
+    },
+    {
+      "name": "fgvhbj",
+      "email": "vbhj@dfgh",
+      "title": "Doctor strange",
+      "date": "01-07-2020",
+      "time": "9.00am",
+      "id": 19
+    }
+  ]
+}
