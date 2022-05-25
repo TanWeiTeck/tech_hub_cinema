@@ -23,7 +23,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::resource('movies', MovieController::class);
 
+Route::get('sessions/{id}', [SessionsController::class, 'index']);
+
 Route::resource('sessions', SessionsController::class);
+
+Route::get('confirmation/{sessionid}', [mytableController::class, 'index']);
 
 Route::resource('confirmation', mytableController::class);
 

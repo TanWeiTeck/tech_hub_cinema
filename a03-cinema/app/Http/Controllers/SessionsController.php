@@ -17,14 +17,12 @@ class SessionsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index($id)
     {
-        $id = $request->input('movie_id',2);
         return DB::table('sessions')
         ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
         ->select('sessions.*','movies.title')
         ->where('sessions.movie_id','=', $id)->get(); 
-
     }
 
     /**
@@ -43,9 +41,9 @@ class SessionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store($request)
     {
-        //
+
     }
 
     /**
@@ -54,17 +52,9 @@ class SessionsController extends Controller
      * @param  \App\Models\sessions  $sessions
      * @return \Illuminate\Http\Response
      */
-    public function show(sessions $sessions)
+    public function show(session $sessions)
     {
-        /*return DB::select('select * from sessions where movie_id = ?',[$sessions]);
-        return response()->json([
-            'sessions' =>$sessions
-        ]); */
-        $id = $request->input('movie_id');
-        return DB::table('sessions')
-        ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
-        ->select('sessions.*','movies.title')
-        ->where('sessions.movie_id','=', $id); 
+
     }
 
     /**

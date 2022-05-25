@@ -14,6 +14,7 @@ class sessions extends Model
         'time',
         'name',
         'email',
+        'movie_id'
     ];
 
     public function movies()

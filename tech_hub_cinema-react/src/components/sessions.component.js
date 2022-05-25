@@ -7,7 +7,7 @@ export default function Sessions() {
     const navigate = useNavigate();
 
     const [sessions, setSessions] = useState([]);
-    const [movie, setMovie] = useState([]);
+    const movie = useParams();
 
     useEffect(() => {
         fetchSessions();
@@ -15,16 +15,17 @@ export default function Sessions() {
     }, []);
     
     const fetchSessions = async () => {
-        await axios.get(`http://localhost:8000/api/sessions`)
-            .then(({ data }) => {
+        await axios.get(`http://localhost:8000/api/sessions/${movie.movie_id}`)
+        .then(({ data }) => {
                 setSessions(data)
             }).catch(({response:{data}})=>{
                 Swal.fire({
                     text:data.message,
                     icon:"error"
                 })
-            });
+            }); 
         console.log(sessions);
+        
     }
 
     return (
@@ -35,7 +36,7 @@ export default function Sessions() {
                         <div key={id} className="">
                             <div className="min-h-[150px] w-[224px] overflow-hidden snap-center box-border text-xs bg-gray-200 shadow md:hover:p-1 duration-300 cursor-pointer rounded-xl m-3">
                                 <div className="p-2 flex flex-col items-center justify-center">
-                                    <p className="font-light text-2xl">
+                                    <p className="font-light text-center text-2xl">
                                         {session.title}
                                     </p>
                                     <p className="text-center w-44">
@@ -45,7 +46,6 @@ export default function Sessions() {
                                         {session.time}
                                     </p>
                                 </div>
-                                
                                 <a href={`/bookings/${session.session_id}`} className="z-20">
                                     <button className="border-[0.1rem] border-gray-700 w-full py-2 text-[0.6rem] hover:bg-gray-800 hover:text-white duration-300 rounded-b-xl">
                                         BOOK NOW

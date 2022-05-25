@@ -16,10 +16,9 @@ class mytableController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index($sessionid)
     {
         
-        $sessionid = $request->input('session_id',3);
         return DB::table('sessions')
         ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
         ->select('sessions.date', 'sessions.time','movies.title')
@@ -58,7 +57,7 @@ class mytableController extends Controller
      */
     public function show(Request $request)
     {
-        $sessionid = $request->input('session_id',1);
+        $sessionid = $request->input('session_id',5);
         return DB::table('sessions')
         ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
         ->select('sessions.date', 'sessions.time','movies.title')
@@ -74,12 +73,7 @@ class mytableController extends Controller
      */
     public function edit(Request $request)
     {
-        $sessionid = $request->input('session_id',1);
-        return DB::table('sessions')
-        ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
-        ->select('sessions.date', 'sessions.time','movies.title')
-        ->where('sessions.session_id','=', $sessionid)
-        ->get(); 
+        
     }
 
     /**

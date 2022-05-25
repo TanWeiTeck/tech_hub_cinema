@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-//import { Link } from 'react-router-dom';
+//import { useParams } from 'react-router-dom';
 //import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 //import Swal from 'sweetalert2';
@@ -32,7 +32,7 @@ export default function List() {
                                     src={movie.image}
                                     alt=""
                                 />
-                                <div className="p-2 flex flex-col items-center justify-center">
+                                <div className="p-2 flex flex-col items-center text-center">
                                     <p className="font-light text-2xl">
                                         {movie.title}
                                     </p>
@@ -41,15 +41,16 @@ export default function List() {
                                     </p>
                                 </div>
                                 <div id="movie_id">
-                                <a href={`/sessions/${movie.movie_id}`} className="z-20" >
-                                    <button className="border-[0.1rem] border-gray-700 w-full py-2 text-[0.6rem] hover:bg-gray-800 hover:text-white duration-300 rounded-b-xl">
-                                        BOOK NOW
-                                    </button>
-                                </a>
+                                    <a href={`/sessions/${movie.movie_id}`} className="z-20" >
+                                        <button className="border-[0.1rem] border-gray-700 w-full py-2 text-[0.6rem] hover:bg-gray-800 hover:text-white duration-300 rounded-b-xl">
+                                            BOOK NOW
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ))
+                }
             </div>
         </div>
     );
