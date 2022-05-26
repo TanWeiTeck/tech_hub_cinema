@@ -219,7 +219,7 @@ export default function List() {
                                 <td>
                                     <div className="flex justify-center">
                                         <a
-                                            href={`/edit/${booking.session_id}`}
+                                            href={`/bookings/${booking.session_id}`}
                                             className=" hover:bg-white/50 py-1 px-2 rounded-lg font-bold w-14"
                                         >
                                             <img src="https://img.icons8.com/plasticine/100/000000/edit.png" />
