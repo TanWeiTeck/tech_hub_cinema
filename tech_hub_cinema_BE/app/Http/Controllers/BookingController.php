@@ -19,7 +19,7 @@ class BookingController extends Controller
      */
     public function index()
     {
-        return DB::table('bookings')->select('booking_id','title','name','email','date','time','created_at')->get();
+        return DB::table('booking_lists')->get();
     }
 
     /**

@@ -18,10 +18,12 @@ export default function Booking() {
     const [email, setEmail] = useState('');
     const [validationError, setValidationError] = useState({});
     const session = useParams();
+    const movie = useParams();
 
     const bookingTitle = useRef();
     const bookingDate = useRef();
     const bookingTime = useRef();
+    const bookingSessionId = useRef();
 
     useEffect(() => {
         fetchSessions();
@@ -48,6 +50,7 @@ export default function Booking() {
     bookingData.append('title', bookingTitle.current.value)
     bookingData.append('date', bookingDate.current.value)
     bookingData.append('time', bookingTime.current.value)
+    bookingData.append('session_id', bookingSessionId.current.value)
     bookingData.append('name', name)
     bookingData.append('email', email)
 
@@ -115,6 +118,11 @@ export default function Booking() {
                                             className='bg-inherit border-x-0 border-t-0 border-b-[1px] border-gray-400 text-center' 
                                             value={session.time} readOnly ref={bookingTime}
                                             />
+                                            <label>Session ID</label>
+                                        <input 
+                                            className='bg-inherit border-x-0 border-t-0 border-b-[1px] border-gray-400 text-center' 
+                                            value={session.session_id} readOnly ref={bookingSessionId}
+                                            />
                                     </div>
                                 </div>
                             </div>
@@ -139,14 +147,10 @@ export default function Booking() {
                         onChange={(event) => setEmail(event.target.value)}
                     />
                 </div>
-                <button className="border-[0.1rem] border-gray-700 text-center w-full py-2 hover:bg-gray-800 hover:text-white duration-300 rounded-md no-underline ">
+                <button className="border-[0.1rem] text-sm mb-3 border-gray-700 text-center w-full py-2 hover:bg-gray-800 hover:text-white duration-300 rounded-md no-underline ">
                     BOOK NOW
                 </button>
             </Form>
-            <a href={`/sessions/:movie_id`} className="z-20"><button className="border-[0.1rem] border-gray-700 text-center text-sm w-full py-2 hover:bg-gray-800 hover:text-white duration-300 rounded-md no-underline ">
-                    Change Date/Time
-                </button>
-            </a>
             <a href={`/`}>
                 <button className="border-[0.1rem] border-gray-700 text-center text-sm w-full py-2 hover:bg-gray-800 hover:text-white duration-300 rounded-md no-underline ">
                     Cancel

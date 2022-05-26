@@ -34,7 +34,7 @@ export default function Sessions() {
                 {sessions.length > 0 &&
                     sessions.map((session,id) => (
                         <div key={id} className="">
-                            <div className="min-h-[150px] w-[224px] overflow-hidden snap-center box-border text-xs bg-gray-200 shadow md:hover:p-1 duration-300 cursor-pointer rounded-xl m-3">
+                            <div className="min-h-[150px] w-[224px] overflow-hidden snap-center box-border text-xs bg-gray-200 shadow md:hover:shadow-none hover:scale-[0.99] duration-300 cursor-pointer rounded-xl m-3">
                                 <div className="p-2 flex flex-col items-center justify-center">
                                     <p className="font-light text-center text-2xl">
                                         {session.title}

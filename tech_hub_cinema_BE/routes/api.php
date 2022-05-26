@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\mytableController;
-use App\Http\Controllers\BookingController;
+use App\Http\Controllers\BookingListsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -31,4 +31,4 @@ Route::get('confirmation/{sessionid}', [mytableController::class, 'index']);
 
 Route::resource('confirmation', mytableController::class);
 
-Route::resource('bookings', BookingController::class);
+Route::resource('bookings', BookingListsController::class);

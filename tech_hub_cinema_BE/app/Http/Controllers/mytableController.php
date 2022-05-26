@@ -21,7 +21,7 @@ class mytableController extends Controller
         
         return DB::table('sessions')
         ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
-        ->select('sessions.date', 'sessions.time','movies.title')
+        ->select('sessions.date', 'sessions.time','movies.title','sessions.session_id')
         ->where('sessions.session_id','=', $sessionid)
         ->get(); 
 
@@ -60,7 +60,7 @@ class mytableController extends Controller
         $sessionid = $request->input('session_id',5);
         return DB::table('sessions')
         ->join('movies', 'sessions.movie_id', '=','movies.movie_id')
-        ->select('sessions.date', 'sessions.time','movies.title')
+        ->select('sessions.date', 'sessions.time','movies.title','sessions.session_id')
         ->where('sessions.session_id','=', $sessionid)
         ->get(); 
     }
